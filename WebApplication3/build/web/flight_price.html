@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Booking Price - Travel World</title>
+</head>
+<body>
+    <header>
+        <div class="logo"><h1>Travel World</h1></div>
+        <nav>
+            <ul>
+                <li><a href="HomeServlet">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="flight-price">
+        <h2>Booking Summary</h2>
+        <p><strong>Departure City:</strong> ${departureCity}</p>
+        <p><strong>Destination City:</strong> ${destinationCity}</p>
+        <p><strong>Departure Date:</strong> ${departureDate}</p>
+        <p><strong>Number of Passengers:</strong> ${passengerCount}</p>
+        <p><strong>Total Price:</strong> $${totalPrice}</p>
+        <button onclick="window.location.href='HomeServlet'">Back to Home</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Travel World. All rights reserved.</p>
+    </footer>
+</body>
+</html>

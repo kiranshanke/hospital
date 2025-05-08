@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 36px;
+    color: #2d2d2d;
+}
+
+/* Container for the form */
+.form-group {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="date"], input[type="time"] {
+    background-color: #fafafa;
+}
+
+/* Styling for the select input */
+select {
+    background-color: #fff;
+    font-size: 16px;
+}
+
+/* Button styles */
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .form-group {
+        width: 90%;
+        padding: 15px;
+    }
+
+    button {
+        font-size: 16px;
+    }
+}

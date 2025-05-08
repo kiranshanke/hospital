@@ -1,0 +1,630 @@
+07-Mar-2025 09:10:31.476 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.86
+07-Mar-2025 09:10:31.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 14 2024 08:15:12 UTC
+07-Mar-2025 09:10:31.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.86.0
+07-Mar-2025 09:10:31.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+07-Mar-2025 09:10:31.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-Mar-2025 09:10:31.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Mar-2025 09:10:31.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-20
+07-Mar-2025 09:10:31.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           20.0.2+9-78
+07-Mar-2025 09:10:31.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Mar-2025 09:10:31.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\New folder\apache-tomcat-9.0.86
+07-Mar-2025 09:10:31.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\New folder\apache-tomcat-9.0.86
+07-Mar-2025 09:10:31.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Mar-2025 09:10:31.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+07-Mar-2025 09:10:31.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+07-Mar-2025 09:10:31.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+07-Mar-2025 09:10:31.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Mar-2025 09:10:31.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\New folder\apache-tomcat-9.0.86\conf\logging.properties
+07-Mar-2025 09:10:31.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Mar-2025 09:10:31.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Mar-2025 09:10:31.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Mar-2025 09:10:31.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Mar-2025 09:10:31.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\New folder\apache-tomcat-9.0.86
+07-Mar-2025 09:10:31.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\New folder\apache-tomcat-9.0.86
+07-Mar-2025 09:10:31.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\New folder\apache-tomcat-9.0.86\temp
+07-Mar-2025 09:10:31.516 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-20\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\MySQL\MySQL Server 8.0\bin;E:\mingw32\bin;C:\Program Files\Java\jdk-20\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\91976\AppData\Local\Microsoft\WindowsApps;C:\Users\91976\AppData\Local\GitHubDesktop\bin;C:\MinGW\bin;F:\mingw32\bin;C:\Users\91976\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW;;.]
+07-Mar-2025 09:10:31.998 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Mar-2025 09:10:32.041 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1147] milliseconds
+07-Mar-2025 09:10:32.159 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Mar-2025 09:10:32.159 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.86]
+07-Mar-2025 09:10:32.173 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\New folder\apache-tomcat-9.0.86\webapps\docs]
+07-Mar-2025 09:10:32.698 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\New folder\apache-tomcat-9.0.86\webapps\docs] has finished in [524] ms
+07-Mar-2025 09:10:32.698 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\New folder\apache-tomcat-9.0.86\webapps\examples]
+07-Mar-2025 09:10:33.448 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\New folder\apache-tomcat-9.0.86\webapps\examples] has finished in [750] ms
+07-Mar-2025 09:10:33.448 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\New folder\apache-tomcat-9.0.86\webapps\host-manager]
+07-Mar-2025 09:10:33.515 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\New folder\apache-tomcat-9.0.86\webapps\host-manager] has finished in [66] ms
+07-Mar-2025 09:10:33.516 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\New folder\apache-tomcat-9.0.86\webapps\manager]
+07-Mar-2025 09:10:33.588 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\New folder\apache-tomcat-9.0.86\webapps\manager] has finished in [73] ms
+07-Mar-2025 09:10:33.588 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\New folder\apache-tomcat-9.0.86\webapps\ROOT]
+07-Mar-2025 09:10:33.624 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\New folder\apache-tomcat-9.0.86\webapps\ROOT] has finished in [36] ms
+07-Mar-2025 09:10:33.636 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Mar-2025 09:10:33.720 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1676] milliseconds
+07-Mar-2025 09:10:53.726 INFO [http-nio-8080-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [E:\New folder\apache-tomcat-9.0.86\conf\Catalina\localhost\WebApplication1.xml]
+07-Mar-2025 09:10:53.726 WARNING [http-nio-8080-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplication1] in deployment descriptor [E:\New folder\apache-tomcat-9.0.86\conf\Catalina\localhost\WebApplication1.xml] has been ignored
+07-Mar-2025 09:10:53.766 INFO [http-nio-8080-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\New folder\apache-tomcat-9.0.86\conf\Catalina\localhost\WebApplication1.xml] has finished in [40] ms
+07-Mar-2025 09:10:53.782 INFO [http-nio-8080-exec-10] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebApplication1]] after start() had already been called. The second call will be ignored.
+07-Mar-2025 09:20:34.327 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/WebApplication1]
+07-Mar-2025 09:20:34.328 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication1] has started
+07-Mar-2025 09:20:34.376 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication1] is completed
+07-Mar-2025 09:23:14.567 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/WebApplication1]
+07-Mar-2025 09:23:14.567 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication1] has started
+07-Mar-2025 09:23:14.597 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication1] is completed
+07-Mar-2025 09:23:54.637 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/WebApplication1]
+07-Mar-2025 09:23:54.637 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication1] has started
+07-Mar-2025 09:23:54.708 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication1] is completed
+07-Mar-2025 10:13:44.548 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+07-Mar-2025 10:13:44.554 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Mar-2025 10:13:44.586 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Mar-2025 10:13:44.697 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Mar-2025 10:13:44.753 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Mar-2025 12:18:48.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.86
+07-Mar-2025 12:18:48.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 14 2024 08:15:12 UTC
+07-Mar-2025 12:18:48.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.86.0
+07-Mar-2025 12:18:48.765 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+07-Mar-2025 12:18:48.765 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-Mar-2025 12:18:48.765 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Mar-2025 12:18:48.765 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-20
+07-Mar-2025 12:18:48.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           20.0.2+9-78
+07-Mar-2025 12:18:48.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Mar-2025 12:18:48.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\New folder\apache-tomcat-9.0.86
+07-Mar-2025 12:18:48.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\New folder\apache-tomcat-9.0.86
+07-Mar-2025 12:18:48.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Mar-2025 12:18:48.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+07-Mar-2025 12:18:48.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+07-Mar-2025 12:18:48.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+07-Mar-2025 12:18:48.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Mar-2025 12:18:48.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\New folder\apache-tomcat-9.0.86\conf\logging.properties
+07-Mar-2025 12:18:48.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Mar-2025 12:18:48.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-I92OOQO
+07-Mar-2025 12:18:48.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Mar-2025 12:18:48.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Mar-2025 12:18:48.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Mar-2025 12:18:48.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\New folder\apache-tomcat-9.0.86
+07-Mar-2025 12:18:48.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\New folder\apache-tomcat-9.0.86
+07-Mar-2025 12:18:48.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\New folder\apache-tomcat-9.0.86\temp
+07-Mar-2025 12:18:48.815 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-20\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\MySQL\MySQL Server 8.0\bin;E:\mingw32\bin;C:\Program Files\Java\jdk-20\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\91976\AppData\Local\Microsoft\WindowsApps;C:\Users\91976\AppData\Local\GitHubDesktop\bin;C:\MinGW\bin;F:\mingw32\bin;C:\Users\91976\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW;;.]
+07-Mar-2025 12:18:49.359 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Mar-2025 12:18:49.413 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1280] milliseconds
+07-Mar-2025 12:18:49.475 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Mar-2025 12:18:49.475 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.86]
+07-Mar-2025 12:18:49.527 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [E:\New folder\apache-tomcat-9.0.86\conf\Catalina\localhost\WebApplication1.xml]
+07-Mar-2025 12:18:49.558 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplication1] in deployment descriptor [E:\New folder\apache-tomcat-9.0.86\conf\Catalina\localhost\WebApplication1.xml] has been ignored
+07-Mar-2025 12:18:50.108 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\New folder\apache-tomcat-9.0.86\conf\Catalina\localhost\WebApplication1.xml] has finished in [580] ms
+07-Mar-2025 12:18:50.109 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\New folder\apache-tomcat-9.0.86\webapps\docs]
+07-Mar-2025 12:18:50.204 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\New folder\apache-tomcat-9.0.86\webapps\docs] has finished in [94] ms
+07-Mar-2025 12:18:50.204 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\New folder\apache-tomcat-9.0.86\webapps\examples]
+07-Mar-2025 12:18:51.920 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\New folder\apache-tomcat-9.0.86\webapps\examples] has finished in [1,716] ms
+07-Mar-2025 12:18:51.920 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\New folder\apache-tomcat-9.0.86\webapps\host-manager]
+07-Mar-2025 12:18:51.981 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\New folder\apache-tomcat-9.0.86\webapps\host-manager] has finished in [61] ms
+07-Mar-2025 12:18:51.981 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\New folder\apache-tomcat-9.0.86\webapps\manager]
+07-Mar-2025 12:18:52.049 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\New folder\apache-tomcat-9.0.86\webapps\manager] has finished in [68] ms
+07-Mar-2025 12:18:52.049 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\New folder\apache-tomcat-9.0.86\webapps\ROOT]
+07-Mar-2025 12:18:52.071 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\New folder\apache-tomcat-9.0.86\webapps\ROOT] has finished in [22] ms
+07-Mar-2025 12:18:52.080 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Mar-2025 12:18:52.135 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2719] milliseconds
+07-Mar-2025 12:19:23.844 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [E:\New folder\apache-tomcat-9.0.86\conf\Catalina\localhost\New_folder.xml]
+07-Mar-2025 12:19:23.847 WARNING [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/New_folder] in deployment descriptor [E:\New folder\apache-tomcat-9.0.86\conf\Catalina\localhost\New_folder.xml] has been ignored
+07-Mar-2025 12:19:23.865 SEVERE [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [E:\New folder\apache-tomcat-9.0.86\conf\Catalina\localhost\New_folder.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:529)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1658)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+		at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:294)
+		at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:803)
+		at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+		at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1497)
+		at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:970)
+		at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:333)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:596)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:355)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:54)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+	Caused by: org.apache.catalina.LifecycleException: Failed to initialize component [org.apache.catalina.webresources.JarResourceSet@6bf5c397]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:130)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:161)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:725)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4575)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4708)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 42 more
+	Caused by: java.lang.IllegalArgumentException: java.io.IOException: java.lang.reflect.InvocationTargetException
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.initInternal(AbstractSingleArchiveResourceSet.java:141)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		... 49 more
+	Caused by: java.io.IOException: java.lang.reflect.InvocationTargetException
+		at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:209)
+		at org.apache.tomcat.util.compat.Jre19Compat.jarFileNewInstance(Jre19Compat.java:25)
+		at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:275)
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.initInternal(AbstractSingleArchiveResourceSet.java:138)
+		... 50 more
+	Caused by: java.lang.reflect.InvocationTargetException
+		at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:79)
+		at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+		at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+		at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:206)
+		... 53 more
+	Caused by: java.util.zip.ZipException: zip END header not found
+		at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1618)
+		at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1626)
+		at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1464)
+		at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1427)
+		at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:723)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:250)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:179)
+		at java.base/java.util.jar.JarFile.<init>(JarFile.java:339)
+		at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+		... 56 more
+07-Mar-2025 12:19:23.995 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\New folder\apache-tomcat-9.0.86\conf\Catalina\localhost\New_folder.xml] has finished in [150] ms
+07-Mar-2025 12:19:35.869 INFO [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/New_folder]
+07-Mar-2025 12:19:35.874 INFO [http-nio-8080-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [E:\New folder\apache-tomcat-9.0.86\conf\Catalina\localhost\New_folder.xml]
+07-Mar-2025 12:19:35.874 WARNING [http-nio-8080-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/New_folder] in deployment descriptor [E:\New folder\apache-tomcat-9.0.86\conf\Catalina\localhost\New_folder.xml] has been ignored
+07-Mar-2025 12:19:35.874 SEVERE [http-nio-8080-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [E:\New folder\apache-tomcat-9.0.86\conf\Catalina\localhost\New_folder.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:529)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1658)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+		at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:294)
+		at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:803)
+		at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+		at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1497)
+		at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:970)
+		at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:333)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:596)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:355)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:54)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+	Caused by: org.apache.catalina.LifecycleException: Failed to initialize component [org.apache.catalina.webresources.JarResourceSet@28287af9]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:130)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:161)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:725)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4575)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4708)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 42 more
+	Caused by: java.lang.IllegalArgumentException: java.io.IOException: java.lang.reflect.InvocationTargetException
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.initInternal(AbstractSingleArchiveResourceSet.java:141)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		... 49 more
+	Caused by: java.io.IOException: java.lang.reflect.InvocationTargetException
+		at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:209)
+		at org.apache.tomcat.util.compat.Jre19Compat.jarFileNewInstance(Jre19Compat.java:25)
+		at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:275)
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.initInternal(AbstractSingleArchiveResourceSet.java:138)
+		... 50 more
+	Caused by: java.lang.reflect.InvocationTargetException
+		at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:79)
+		at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+		at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+		at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:206)
+		... 53 more
+	Caused by: java.util.zip.ZipException: zip END header not found
+		at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1618)
+		at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1626)
+		at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1464)
+		at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1427)
+		at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:723)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:250)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:179)
+		at java.base/java.util.jar.JarFile.<init>(JarFile.java:339)
+		at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+		... 56 more
+07-Mar-2025 12:19:35.952 INFO [http-nio-8080-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\New folder\apache-tomcat-9.0.86\conf\Catalina\localhost\New_folder.xml] has finished in [78] ms
+07-Mar-2025 12:23:33.293 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/New_folder]
+07-Mar-2025 12:23:33.304 INFO [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [E:\New folder\apache-tomcat-9.0.86\conf\Catalina\localhost\New_folder.xml]
+07-Mar-2025 12:23:33.305 WARNING [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/New_folder] in deployment descriptor [E:\New folder\apache-tomcat-9.0.86\conf\Catalina\localhost\New_folder.xml] has been ignored
+07-Mar-2025 12:23:33.319 SEVERE [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [E:\New folder\apache-tomcat-9.0.86\conf\Catalina\localhost\New_folder.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:529)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1658)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+		at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:294)
+		at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:803)
+		at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+		at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1497)
+		at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:970)
+		at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:333)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:596)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:355)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:54)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+	Caused by: org.apache.catalina.LifecycleException: Failed to initialize component [org.apache.catalina.webresources.JarResourceSet@74ca8d36]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:130)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:161)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:725)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4575)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4708)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 42 more
+	Caused by: java.lang.IllegalArgumentException: java.io.IOException: java.lang.reflect.InvocationTargetException
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.initInternal(AbstractSingleArchiveResourceSet.java:141)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		... 49 more
+	Caused by: java.io.IOException: java.lang.reflect.InvocationTargetException
+		at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:209)
+		at org.apache.tomcat.util.compat.Jre19Compat.jarFileNewInstance(Jre19Compat.java:25)
+		at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:275)
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.initInternal(AbstractSingleArchiveResourceSet.java:138)
+		... 50 more
+	Caused by: java.lang.reflect.InvocationTargetException
+		at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:79)
+		at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+		at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+		at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:206)
+		... 53 more
+	Caused by: java.util.zip.ZipException: zip END header not found
+		at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1618)
+		at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1626)
+		at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1464)
+		at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1427)
+		at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:723)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:250)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:179)
+		at java.base/java.util.jar.JarFile.<init>(JarFile.java:339)
+		at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+		... 56 more
+07-Mar-2025 12:23:33.546 INFO [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\New folder\apache-tomcat-9.0.86\conf\Catalina\localhost\New_folder.xml] has finished in [242] ms
+07-Mar-2025 12:23:38.608 INFO [http-nio-8080-exec-15] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/New_folder]
+07-Mar-2025 12:23:38.617 INFO [http-nio-8080-exec-14] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [E:\New folder\apache-tomcat-9.0.86\conf\Catalina\localhost\New_folder.xml]
+07-Mar-2025 12:23:38.618 WARNING [http-nio-8080-exec-14] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/New_folder] in deployment descriptor [E:\New folder\apache-tomcat-9.0.86\conf\Catalina\localhost\New_folder.xml] has been ignored
+07-Mar-2025 12:23:38.626 SEVERE [http-nio-8080-exec-14] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [E:\New folder\apache-tomcat-9.0.86\conf\Catalina\localhost\New_folder.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:529)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1658)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+		at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:294)
+		at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:803)
+		at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+		at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1497)
+		at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:970)
+		at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:333)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:596)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:355)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:54)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+	Caused by: org.apache.catalina.LifecycleException: Failed to initialize component [org.apache.catalina.webresources.JarResourceSet@76dd709b]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:130)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:161)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:725)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4575)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4708)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 42 more
+	Caused by: java.lang.IllegalArgumentException: java.io.IOException: java.lang.reflect.InvocationTargetException
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.initInternal(AbstractSingleArchiveResourceSet.java:141)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		... 49 more
+	Caused by: java.io.IOException: java.lang.reflect.InvocationTargetException
+		at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:209)
+		at org.apache.tomcat.util.compat.Jre19Compat.jarFileNewInstance(Jre19Compat.java:25)
+		at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:275)
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.initInternal(AbstractSingleArchiveResourceSet.java:138)
+		... 50 more
+	Caused by: java.lang.reflect.InvocationTargetException
+		at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:79)
+		at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+		at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+		at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:206)
+		... 53 more
+	Caused by: java.util.zip.ZipException: zip END header not found
+		at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1618)
+		at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1626)
+		at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1464)
+		at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1427)
+		at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:723)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:250)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:179)
+		at java.base/java.util.jar.JarFile.<init>(JarFile.java:339)
+		at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+		... 56 more
+07-Mar-2025 12:23:38.742 INFO [http-nio-8080-exec-14] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\New folder\apache-tomcat-9.0.86\conf\Catalina\localhost\New_folder.xml] has finished in [124] ms
+07-Mar-2025 12:27:06.273 INFO [http-nio-8080-exec-13] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/New_folder]
+07-Mar-2025 12:27:06.288 INFO [http-nio-8080-exec-12] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [E:\New folder\apache-tomcat-9.0.86\conf\Catalina\localhost\New_folder.xml]
+07-Mar-2025 12:27:06.288 WARNING [http-nio-8080-exec-12] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/New_folder] in deployment descriptor [E:\New folder\apache-tomcat-9.0.86\conf\Catalina\localhost\New_folder.xml] has been ignored
+07-Mar-2025 12:27:06.296 SEVERE [http-nio-8080-exec-12] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [E:\New folder\apache-tomcat-9.0.86\conf\Catalina\localhost\New_folder.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:529)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1658)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+		at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:294)
+		at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:803)
+		at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+		at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1497)
+		at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:970)
+		at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:333)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:596)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:355)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:54)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+	Caused by: org.apache.catalina.LifecycleException: Failed to initialize component [org.apache.catalina.webresources.JarResourceSet@103235b6]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:130)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:161)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:725)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4575)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4708)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 42 more
+	Caused by: java.lang.IllegalArgumentException: java.io.IOException: java.lang.reflect.InvocationTargetException
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.initInternal(AbstractSingleArchiveResourceSet.java:141)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		... 49 more
+	Caused by: java.io.IOException: java.lang.reflect.InvocationTargetException
+		at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:209)
+		at org.apache.tomcat.util.compat.Jre19Compat.jarFileNewInstance(Jre19Compat.java:25)
+		at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:275)
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.initInternal(AbstractSingleArchiveResourceSet.java:138)
+		... 50 more
+	Caused by: java.lang.reflect.InvocationTargetException
+		at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:79)
+		at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+		at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+		at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:206)
+		... 53 more
+	Caused by: java.util.zip.ZipException: zip END header not found
+		at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1618)
+		at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1626)
+		at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1464)
+		at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1427)
+		at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:723)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:250)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:179)
+		at java.base/java.util.jar.JarFile.<init>(JarFile.java:339)
+		at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+		... 56 more
+07-Mar-2025 12:27:06.557 INFO [http-nio-8080-exec-12] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\New folder\apache-tomcat-9.0.86\conf\Catalina\localhost\New_folder.xml] has finished in [269] ms
+07-Mar-2025 12:28:49.640 INFO [http-nio-8080-exec-22] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/New_folder]
+07-Mar-2025 12:28:49.652 INFO [http-nio-8080-exec-12] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [E:\New folder\apache-tomcat-9.0.86\conf\Catalina\localhost\New_folder.xml]
+07-Mar-2025 12:28:49.653 WARNING [http-nio-8080-exec-12] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/New_folder] in deployment descriptor [E:\New folder\apache-tomcat-9.0.86\conf\Catalina\localhost\New_folder.xml] has been ignored
+07-Mar-2025 12:28:49.660 SEVERE [http-nio-8080-exec-12] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [E:\New folder\apache-tomcat-9.0.86\conf\Catalina\localhost\New_folder.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:529)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1658)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+		at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:294)
+		at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:803)
+		at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+		at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1497)
+		at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:970)
+		at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:333)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:596)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:355)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:54)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+	Caused by: org.apache.catalina.LifecycleException: Failed to initialize component [org.apache.catalina.webresources.JarResourceSet@376ab3f9]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:130)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:161)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:725)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4575)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4708)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 42 more
+	Caused by: java.lang.IllegalArgumentException: java.io.IOException: java.lang.reflect.InvocationTargetException
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.initInternal(AbstractSingleArchiveResourceSet.java:141)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		... 49 more
+	Caused by: java.io.IOException: java.lang.reflect.InvocationTargetException
+		at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:209)
+		at org.apache.tomcat.util.compat.Jre19Compat.jarFileNewInstance(Jre19Compat.java:25)
+		at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:275)
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.initInternal(AbstractSingleArchiveResourceSet.java:138)
+		... 50 more
+	Caused by: java.lang.reflect.InvocationTargetException
+		at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:79)
+		at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+		at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+		at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:206)
+		... 53 more
+	Caused by: java.util.zip.ZipException: zip END header not found
+		at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1618)
+		at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1626)
+		at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1464)
+		at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1427)
+		at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:723)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:250)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:179)
+		at java.base/java.util.jar.JarFile.<init>(JarFile.java:339)
+		at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+		... 56 more
+07-Mar-2025 12:28:49.754 INFO [http-nio-8080-exec-12] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\New folder\apache-tomcat-9.0.86\conf\Catalina\localhost\New_folder.xml] has finished in [102] ms
+07-Mar-2025 16:38:56.325 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+07-Mar-2025 16:38:56.351 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Mar-2025 16:38:56.429 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Mar-2025 16:38:56.608 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Mar-2025 16:38:56.644 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

@@ -1,0 +1,218 @@
+11-Apr-2025 09:29:59.965 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+11-Apr-2025 09:29:59.965 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+11-Apr-2025 09:29:59.980 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@5dfe23e8')
+11-Apr-2025 09:33:15.949 SEVERE [http-nio-8080-exec-13] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/HospitalManagement] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [89] in the jsp file: [/updateDoctor.jsp]
+availability cannot be resolved
+86:                             specialty = request.getParameter("specialty");
+87:                             //availability = request.getParameter("availability");
+88: 
+89:                             if (firstName.isEmpty() || lastName.isEmpty() || email.isEmpty() || contactNumber.isEmpty() || specialty.isEmpty() || availability.isEmpty()) {
+90:                                 message = "All fields are required.";
+91:                             } else if (!contactNumber.matches("\\d{10}")) {
+92:                                 message = "Contact number must be 10 digits.";
+
+
+An error occurred at line: [171] in the jsp file: [/updateDoctor.jsp]
+availability cannot be resolved to a variable
+168:             </div>
+169: <!--            <div class="form-group">
+170:                 <label for="availability">Availability</label>
+171:                 <input type="text" id="availability" name="availability" value="<%= availability %>" required>
+172:             </div>-->
+173:             <button type="submit">Update Doctor</button>
+174:         </form>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [89] in the jsp file: [/updateDoctor.jsp]
+availability cannot be resolved
+86:                             specialty = request.getParameter("specialty");
+87:                             //availability = request.getParameter("availability");
+88: 
+89:                             if (firstName.isEmpty() || lastName.isEmpty() || email.isEmpty() || contactNumber.isEmpty() || specialty.isEmpty() || availability.isEmpty()) {
+90:                                 message = "All fields are required.";
+91:                             } else if (!contactNumber.matches("\\d{10}")) {
+92:                                 message = "Contact number must be 10 digits.";
+
+
+An error occurred at line: [171] in the jsp file: [/updateDoctor.jsp]
+availability cannot be resolved to a variable
+168:             </div>
+169: <!--            <div class="form-group">
+170:                 <label for="availability">Availability</label>
+171:                 <input type="text" id="availability" name="availability" value="<%= availability %>" required>
+172:             </div>-->
+173:             <button type="submit">Update Doctor</button>
+174:         </form>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:531)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+11-Apr-2025 09:33:57.038 SEVERE [http-nio-8080-exec-11] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/HospitalManagement] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [171] in the jsp file: [/updateDoctor.jsp]
+availability cannot be resolved to a variable
+168:             </div>
+169: <!--            <div class="form-group">
+170:                 <label for="availability">Availability</label>
+171:                 <input type="text" id="availability" name="availability" value="<%= availability %>" required>
+172:             </div>-->
+173:             <button type="submit">Update Doctor</button>
+174:         </form>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [171] in the jsp file: [/updateDoctor.jsp]
+availability cannot be resolved to a variable
+168:             </div>
+169: <!--            <div class="form-group">
+170:                 <label for="availability">Availability</label>
+171:                 <input type="text" id="availability" name="availability" value="<%= availability %>" required>
+172:             </div>-->
+173:             <button type="submit">Update Doctor</button>
+174:         </form>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:531)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+11-Apr-2025 10:33:44.502 SEVERE [http-nio-8080-exec-17] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/HospitalManagement] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [82] in the generated java file: [E:\New folder\apache-tomcat-9.0.86\work\Catalina\localhost\HospitalManagement\org\apache\jsp\addDoctor_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+An error occurred at line: [334] in the generated java file: [E:\New folder\apache-tomcat-9.0.86\work\Catalina\localhost\HospitalManagement\org\apache\jsp\addDoctor_jsp.java]
+Syntax error, insert "}" to complete Block
+
+An error occurred at line: [334] in the generated java file: [E:\New folder\apache-tomcat-9.0.86\work\Catalina\localhost\HospitalManagement\org\apache\jsp\addDoctor_jsp.java]
+Syntax error, insert "else Statement" to complete IfStatement
+
+An error occurred at line: [334] in the generated java file: [E:\New folder\apache-tomcat-9.0.86\work\Catalina\localhost\HospitalManagement\org\apache\jsp\addDoctor_jsp.java]
+Syntax error, insert "}" to complete Block
+
+An error occurred at line: [352] in the generated java file: [E:\New folder\apache-tomcat-9.0.86\work\Catalina\localhost\HospitalManagement\org\apache\jsp\addDoctor_jsp.java]
+Syntax error on token "}", delete this token
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [82] in the generated java file: [E:\New folder\apache-tomcat-9.0.86\work\Catalina\localhost\HospitalManagement\org\apache\jsp\addDoctor_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+An error occurred at line: [334] in the generated java file: [E:\New folder\apache-tomcat-9.0.86\work\Catalina\localhost\HospitalManagement\org\apache\jsp\addDoctor_jsp.java]
+Syntax error, insert "}" to complete Block
+
+An error occurred at line: [334] in the generated java file: [E:\New folder\apache-tomcat-9.0.86\work\Catalina\localhost\HospitalManagement\org\apache\jsp\addDoctor_jsp.java]
+Syntax error, insert "else Statement" to complete IfStatement
+
+An error occurred at line: [334] in the generated java file: [E:\New folder\apache-tomcat-9.0.86\work\Catalina\localhost\HospitalManagement\org\apache\jsp\addDoctor_jsp.java]
+Syntax error, insert "}" to complete Block
+
+An error occurred at line: [352] in the generated java file: [E:\New folder\apache-tomcat-9.0.86\work\Catalina\localhost\HospitalManagement\org\apache\jsp\addDoctor_jsp.java]
+Syntax error on token "}", delete this token
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:531)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+11-Apr-2025 16:55:56.535 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+11-Apr-2025 16:55:56.535 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
